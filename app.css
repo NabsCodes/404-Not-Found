@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.not-found {
+    width: 133px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-family: 'Inconsolata', monospace;
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.badnews-content h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    width: auto;
+    color: #333;
+    font-size: 48px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.68px;
+}
+
+.badnews-content p {
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+    width: auto;
+    color: #4F4F4F;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.63px;
+    margin-top: 30px;
+}
+
+button {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    background-color: #333333;
+    color: #FFF;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.username {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #BDBDBD;
+    text-align: center;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.username a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #BDBDBD;
+    font-size: 14px;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.username a:hover {
+    color: black;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .scarecrow {
+        padding: 0 40px 0 40px;
+    }
+    .badnews-content {
+        padding: 0 40px 0 40px;
+    }
+    .badnews-content h1 {
+        width: auto;
+        font-size: 4rem;
+        letter-spacing: -0.14rem;
+    }
+    .badnews-content p {
+        width: auto;
+        font-size: 24px;
+        letter-spacing: -0.84px;
+    }
+}
