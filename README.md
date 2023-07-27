@@ -35,8 +35,8 @@
 
 ## Overview
 
-![screenshot](![Desktop View](<Desktop View.png>))
-![screenshot](<![Mobile View](<Mobile View.png>)>)
+[Desktop-View]![Desktop View](<Desktop View.png>)
+[Mobile-View]![Mobile View](<Mobile View.png>)
 
 ### Built With
 
