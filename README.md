@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](![Desktop View](<Screenshot 2023-07-27 at 1.58.29 PM.png>))
+![screenshot](![Desktop View](<Desktop View.png>))
 ![screenshot](<![Mobile View](<Mobile View.png>)>)
 
 ### Built With
@@ -60,5 +60,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@NabsCodes](https://{github.com/NabsCodes})
-- Twitter [@nabeelhassan\_](https://{twitter.com/nabeelhassan_})
+- GitHub [@NabsCodes](https://github.com/NabsCodes)
+- Twitter [@nabeelhassan\_](https://twitter.com/nabeelhassan_)
